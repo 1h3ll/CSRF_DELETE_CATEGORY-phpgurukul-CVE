@@ -14,9 +14,9 @@ Unauthorized category deletion.
 
 **🛜Proof-of-Concept (PoC):**
 
-1)There was a category delete functionality where only authenticated admin can delete category.
+1) There was a category delete functionality where only authenticated admin can delete category.
 ![1](https://github.com/user-attachments/assets/e89bd4f0-7e18-4160-a021-52782d46316a)
-2)HTML code to send GET request to the endpoint `/admin/manage-category.php`
+2) HTML code to send GET request to the endpoint `/admin/manage-category.php`
 **CSRF-POC**
 ```
 <html>
@@ -33,9 +33,9 @@ Unauthorized category deletion.
 </html>
 ```
 
-3)Use the HTML code and craft a malicious URL.
+3) Use the HTML code and craft a malicious URL.
 ![3](https://github.com/user-attachments/assets/53ce1a60-b26e-475e-8ea4-79dacbb18ab2)
-4)After Admin clicks on the link, new category will be deleted.
+4) After Admin clicks on the link, new category will be deleted.
 ![4](https://github.com/user-attachments/assets/20a44793-7785-4c3c-98ed-ea20a8649aa9)
 ![5](https://github.com/user-attachments/assets/f44af5f6-6f4c-44cb-8f47-72148378afcd)
 
