@@ -12,7 +12,7 @@ A Cross-Site Request Forgery (CSRF) vulnerability exists in the admin panel of P
 **👩‍💻Impact:**
 Unauthorized category deletion.
 
-**🛜Proof-of-Concept (PoC)**
+**🛜Proof-of-Concept (PoC):**
 
 1)There was a category delete functionality where only authenticated admin can delete category.
 ![1](https://github.com/user-attachments/assets/e89bd4f0-7e18-4160-a021-52782d46316a)
